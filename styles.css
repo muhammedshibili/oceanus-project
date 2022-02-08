@@ -1,0 +1,19 @@
+body{
+    margin: 0%;
+    overflow: hidden;
+}
+
+.main-body{
+    display: flex;
+}
+
+
+.right1{
+    padding-top: 90px;
+    padding-left: 75px;
+}
+
+.right{
+    width: 50%;
+    height: 657px;
+}
