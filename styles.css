@@ -42,7 +42,7 @@ body{
     padding-top: 0%;
 }
 
-.email{
+input[type=email]{
     margin-top: 100px;
     width: 100%;
     padding: 12px 20px 12px 0;

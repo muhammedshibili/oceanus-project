@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="popup.js"></script>
 </head>
 <body>
     <div class="main-body">
@@ -17,7 +18,7 @@
                 <img class="logo" src="Frame.png" alt="logo">
                 <p class="login">LOGIN</p>
                 <p class="welcome">Welcome to Oceanus</p>
-                <input type="email" class="email" placeholder="Email">
+                <input type="email" placeholder="Email" id="email">
                 <br>
                 <input type="password" class="password" placeholder="password">
                 <div class="remember">
@@ -28,7 +29,7 @@
                     <a class="ForgotPassword" href="#">Forgot password</a>
                 </div>
             </div>
-            <button class="loginButton">Login</button>
+            <button class="loginButton" onclick="popupemail()">Login</button>
         </div>
 
     </div>
